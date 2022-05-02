@@ -1,3 +1,4 @@
+dataFolder      = fullfile(Downloads, 'tum_rgbd_dataset', filesep);
 imageFolder   = [dataFolder,'rgbd_dataset_freiburg3_long_office_household/rgb/'];
 imds          = imageDatastore(imageFolder);
 
